@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_details">20dp</dimen>
+    <dimen name="image_details">20dp</dimen>
+    <dimen name="name_details">20dp</dimen>
+    <dimen name="name_text_details">20sp</dimen>
+    <dimen name="age_details">20sp</dimen>
+    <dimen name="number_details">20sp</dimen>
+    <dimen name="playerMatch_details">20sp</dimen>
+
+    <dimen name="recycler_view">20dp</dimen>
+
+    <dimen name="item_soccer">20dp</dimen>
+    <dimen name="name_item_soccer_size">20sp</dimen>
+    <dimen name="text_name">20dp</dimen>
+</resources>
