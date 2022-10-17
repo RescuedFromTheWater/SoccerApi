@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Soccer</string>
+
+    <string name="details">Details</string>
+    <string name="name_details">Name</string>
+    <string name="age_text_details">Age: 20</string>
+    <string name="number_text_details">Number: 5</string>
+    <string name="playerMatch_text_details">Games played: 5</string>
+
+    <string name="main_list">List</string>
+
+    <string name="item_soccer">Some text</string>
+    <string name="search">Search</string>
 </resources>
