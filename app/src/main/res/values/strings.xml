@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Soccer</string>
+
+    <string name="details">Details</string>
+    <string name="name_details">Name</string>
+    <string name="age_text_details">Age: 20</string>
+    <string name="number_text_details">Number: 5</string>
+    <string name="playerMatch_text_details">Games played: 5</string>
+
+    <string name="main_list">List</string>
+
+    <string name="item_soccer">Some text</string>
+    <string name="search">Search</string>
+
+    <string name="type_name">string</string>
+    <string name="image_nav">image</string>
+    <string name="type_image">string</string>
+    <string name="age_nav">age</string>
+    <string name="age_type">string</string>
+    <string name="number_nav">number</string>
+    <string name="number_type">string</string>
+    <string name="game_nav">game</string>
+    <string name="game_type">string</string>
 </resources>

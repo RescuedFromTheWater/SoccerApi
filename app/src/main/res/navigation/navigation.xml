@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/main">
+
+    <fragment
+        android:id="@+id/main"
+        android:name="com.example.soccer.view.MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_listMain_to_detailsFragment"
+            app:destination="@id/details_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/details_fragment"
+        android:name="com.example.soccer.view.DetailsFragment"
+        tools:layout="@layout/fragment_details">
+
+        <argument
+            android:name="player"
+            app:argType="@string/type_name" />
+
+        <action
+            android:id="@+id/action_detailsFragment_to_listMain"
+            app:destination="@id/main" />
+    </fragment>
+</navigation>
