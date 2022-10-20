@@ -1,11 +1,11 @@
-package com.example.soccer.adapter
+package com.example.soccer.viewmodel.adapter
 
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import coil.size.Scale
 import coil.size.ViewSizeResolver
 import com.example.soccer.databinding.ItemSoccerBinding
-import com.example.soccer.model.Player
+import com.example.soccer.model.data.api.Player
 
 class SoccerViewHolder(
     private val binding: ItemSoccerBinding,

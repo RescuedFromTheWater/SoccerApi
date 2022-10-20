@@ -1,8 +1,8 @@
-package com.example.soccer.model
+package com.example.soccer.model.data.api
 
 import com.google.gson.annotations.SerializedName
 
-data class DetailsSoccer (
+data class Player(
     @SerializedName("player_age")
     val playerAge: String,
     @SerializedName("player_image")

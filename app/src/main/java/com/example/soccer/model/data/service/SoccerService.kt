@@ -1,11 +1,12 @@
-package com.example.soccer.retrofit
+package com.example.soccer.model.data.service
 
+import com.example.soccer.model.data.api.ApiSoccer
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.create
 
-object ApiSoccerService {
+object SoccerService {
 
     private const val BASE_URL = "https://apiv2.allsportsapi.com"
 
@@ -18,5 +19,7 @@ object ApiSoccerService {
         )
         .build()
 
-    val soccerApi = retrofit.create<ApiSoccer>()
+    val apiSoccer = retrofit.create<ApiSoccer>()
+
+    fun provideApiSource(): ApiSoccer = apiSoccer
 }

@@ -39,8 +39,6 @@ android {
 
 dependencies {
 
-    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
-
     def nav_version = "2.5.1"
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
@@ -53,6 +51,15 @@ dependencies {
 
     def coil_version = "2.1.0"
     implementation "io.coil-kt:coil:$coil_version"
+
+    def coroutines_version="1.6.1"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
+
+    def roomVersion = "2.4.1"
+    kapt "androidx.room:room-compiler:$roomVersion"
+    implementation "androidx.room:room-runtime:$roomVersion"
+    implementation "androidx.room:room-ktx:$roomVersion"
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.0'

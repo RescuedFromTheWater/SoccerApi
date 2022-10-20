@@ -13,4 +13,6 @@
     <dimen name="item_soccer">20dp</dimen>
     <dimen name="name_item_soccer_size">20sp</dimen>
     <dimen name="text_name">20dp</dimen>
+
+    <dimen name="value_for_decorator">20dp</dimen>
 </resources>
